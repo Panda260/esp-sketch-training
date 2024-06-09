@@ -32,9 +32,9 @@ captive_portal:
 sensor:
   - platform: dht
     model: "AM2302"
-    pin: 4
+    pin: 3
     temperature:
-      name: "Temperatur"
+      name: "Draußen Temperatur"
     humidity:
-      name: "Humidity"
+      name: "Draußen Humidity"
     update_interval: 5s
